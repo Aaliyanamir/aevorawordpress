@@ -6,9 +6,9 @@ const dmSans = DM_Sans({ variable: "--font-dm-sans", subsets: ["latin"] });
 const spaceGrotesk = Space_Grotesk({ variable: "--font-space-grotesk", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aevora Studio — Thoughtful digital. Made together.",
+  title: "Aevora Studio | Shopify, eBay & Web Development",
   description:
-    "Aevora Studio partners with ambitious people to design and build thoughtful websites, useful software, and digital experiences that move business forward.",
+    "Aevora Studio builds thoughtful websites, Shopify stores, eBay seller accounts, useful software, and digital experiences that move business forward.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
